@@ -4,6 +4,8 @@ import cv2
 import numpy as np
 from PIL import Image
 from ultralytics import YOLO
+import torch
+print(torch.__version__)
 
 model = YOLO('best.pt')
 
